@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <div class="dados">
+            <h1>Login</h1>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <label for="iemail"></label>
+                    <input class="ms" type="email" name="email" id="iemail" required placeholder="Email" autocomplete="email">
+                <label for="isenha"></label>
+                    <input class="ms" type="password" name="senha" id="isenha" required placeholder="password" autocomplete="current-password" minlength="8" maxlength="20">                                       
+        </div>
+        <br>
+        <br>
+                <p>
+                    <input id="botao"  type="checkbox" name="botao" id="ibotao" >
+                    <label for="ibotao">Lembre de mim</label>
+                    <a href="#"><strong>Esqueceu sua senha?</strong></a>
+                </p>
+                <div class="enviar"><input type="submit">
+                </div>
+                <P class="registro">
+                    Não tem conta?<strong>Registrar</strong>
+                </P>
+        
+            </form>
+    </main>
+
+    
+</body>
+</html>
